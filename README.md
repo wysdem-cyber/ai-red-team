@@ -4,7 +4,7 @@ Applied AI security research: adversarial testing, vulnerability documentation, 
 
 ## About
 
-This repo documents hands-on red-teaming and evaluation work against open-source language models — prompt injection testing, jailbreak resistance comparisons, and custom eval design. Each project follows a consistent format: methodology, reproducible test cases, results, and mitigation notes.
+This repo documents hands-on red-teaming and evaluation work against open-source language models prompt injection testing, jailbreak resistance comparisons, and custom eval design. Each project follows a consistent format: methodology, reproducible test cases, results, and mitigation notes.
 
 Background: cybersecurity student building toward AI evaluation / AI safety / red-teaming roles. Tooling used across projects includes `garak`, `promptfoo`, and the HuggingFace ecosystem.
 
@@ -17,7 +17,7 @@ Background: cybersecurity student building toward AI evaluation / AI safety / re
 | [03 — RAG Attack Report](./03-rag-attack-report) | Indirect prompt injection via poisoned documents in a RAG pipeline | ⏳ Planned |
 | [04 — Custom Eval Suite](./04-custom-eval-suite) | Test suite measuring a specific failure mode (e.g. refusal consistency, PII leakage) across models | ⏳ Planned |
 
-*(Table updates as each project ships — see individual project folders for full write-ups.)*
+*(Table updates as each project ships see individual project folders for full write-ups.)*
 
 ## Structure
 
@@ -48,9 +48,9 @@ Each project folder is self-contained with its own README covering:
 
 ## Disclosure
 
-Any genuine, reproducible vulnerabilities found in the course of this work are documented per responsible disclosure practices. No live production systems are targeted — all testing is against openly available models and self-hosted pipelines.
+Any genuine, reproducible vulnerabilities found in the course of this work are documented per responsible disclosure practices. No live production systems are targeted all testing is against openly available models and self-hosted pipelines.
 
 ## Contact
 
-Open to AI evaluation, AI safety, and red-teaming opportunities — feel free to reach out via
+Open to AI evaluation, AI safety, and red-teaming opportunities feel free to reach out via
 https://www.linkedin.com/in/emmanuella-e-a-lewis-sottie-9a6575313/.
